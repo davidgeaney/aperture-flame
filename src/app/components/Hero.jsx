@@ -15,9 +15,9 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-left pt-20">
           <div className="mb-8">
             <p className="text-neutral-400 uppercase tracking-[0.3em] mb-4">Photography Portfolio</p>
-            <h1 className="text-6xl sm:text-7xl md:text-8xl font-light mb-6 leading-[1.1] animate-fadeIn">
-              <span className="text-stroke opacity-90">Capturing Life</span>
-              <span className="inline-block ml-4">Through The Lens</span>
+            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light mb-6 leading-[1.1] animate-fadeIn">
+              <span className="text-stroke opacity-90 block sm:inline">Capturing Life</span>
+              <span className="block sm:inline-block sm:ml-4">Through The Lens</span>
             </h1>
           </div>
           
@@ -56,6 +56,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
+
   )
 }
 
